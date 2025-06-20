@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+  <!-- Background gradient with indigo color palette -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c1d95" /> <!-- Indigo 900 -->
+      <stop offset="50%" stop-color="#6d28d9" /> <!-- Indigo 700 -->
+      <stop offset="100%" stop-color="#4c1d95" /> <!-- Indigo 900 -->
+    </linearGradient>
+    
+    <!-- Patterns for texture -->
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#8b5cf6" fill-opacity="0.3" />
+    </pattern>
+    
+    <!-- Clip paths for landmark silhouettes -->
+    <clipPath id="taj-mahal">
+      <path d="M600,100 L650,100 L650,200 L700,200 L700,300 L500,300 L500,200 L550,200 L550,100 Z M600,100 L600,50 L650,50 L650,100 Z M575,300 L575,350 L625,350 L625,300 Z" />
+    </clipPath>
+    
+    <clipPath id="hawa-mahal">
+      <path d="M200,150 L350,150 L350,350 L200,350 Z M220,170 L240,170 L240,200 L220,200 Z M260,170 L280,170 L280,200 L260,200 Z M300,170 L320,170 L320,200 L300,200 Z M220,220 L240,220 L240,250 L220,250 Z M260,220 L280,220 L280,250 L260,250 Z M300,220 L320,220 L320,250 L300,250 Z M220,270 L240,270 L240,300 L220,300 Z M260,270 L280,270 L280,300 L260,300 Z M300,270 L320,270 L320,300 L300,300 Z" />
+    </clipPath>
+    
+    <clipPath id="mysore-palace">
+      <path d="M850,200 L1050,200 L1050,350 L850,350 Z M900,150 L1000,150 L1000,200 L900,200 Z M950,100 L950,150 L950,100 Z" />
+    </clipPath>
+    
+    <clipPath id="india-gate">
+      <path d="M450,400 L550,400 L550,550 L450,550 Z M470,450 L530,450 L530,500 L470,500 Z" />
+    </clipPath>
+    
+    <clipPath id="lotus-temple">
+      <path d="M650,400 C600,500 700,550 750,400 C800,550 900,500 850,400 C900,350 800,300 750,350 C700,300 600,350 650,400 Z" />
+    </clipPath>
+    
+    <clipPath id="amber-fort">
+      <path d="M950,400 L1100,400 L1100,550 L950,550 Z M975,425 L1075,425 L1075,475 L975,475 Z" />
+    </clipPath>
+    
+    <clipPath id="gateway">
+      <path d="M100,400 L200,400 L200,550 L100,550 Z M125,450 L175,450 L175,500 L125,500 Z" />
+    </clipPath>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="100%" height="100%" fill="url(#bg-gradient)" />
+  <rect width="100%" height="100%" fill="url(#dots)" />
+  
+  <!-- Landmark sections with indigo color palette -->
+  <g opacity="0.9">
+    <!-- Taj Mahal -->
+    <g clip-path="url(#taj-mahal)">
+      <rect x="500" y="50" width="200" height="300" fill="#7c3aed" /> <!-- Indigo 600 -->
+      <circle cx="600" cy="150" r="50" fill="#8b5cf6" fill-opacity="0.5" /> <!-- Indigo 500 -->
+      <path d="M550,300 C550,250 650,250 650,300" fill="none" stroke="#c4b5fd" stroke-width="2" /> <!-- Indigo 300 -->
+    </g>
+    
+    <!-- Hawa Mahal -->
+    <g clip-path="url(#hawa-mahal)">
+      <rect x="200" y="150" width="150" height="200" fill="#6d28d9" /> <!-- Indigo 700 -->
+      <path d="M200,150 L350,150 L350,350 L200,350 Z" fill="none" stroke="#a78bfa" stroke-width="2" /> <!-- Indigo 400 -->
+    </g>
+    
+    <!-- Mysore Palace -->
+    <g clip-path="url(#mysore-palace)">
+      <rect x="850" y="100" width="200" height="250" fill="#5b21b6" /> <!-- Indigo 800 -->
+      <circle cx="950" cy="175" r="25" fill="#8b5cf6" fill-opacity="0.5" /> <!-- Indigo 500 -->
+    </g>
+    
+    <!-- India Gate -->
+    <g clip-path="url(#india-gate)">
+      <rect x="450" y="400" width="100" height="150" fill="#7c3aed" /> <!-- Indigo 600 -->
+      <path d="M450,400 L550,400 L550,550 L450,550 Z" fill="none" stroke="#a78bfa" stroke-width="2" /> <!-- Indigo 400 -->
+    </g>
+    
+    <!-- Lotus Temple -->
+    <g clip-path="url(#lotus-temple)">
+      <rect x="600" y="300" width="250" height="250" fill="#6d28d9" /> <!-- Indigo 700 -->
+      <circle cx="750" cy="425" r="50" fill="#8b5cf6" fill-opacity="0.3" /> <!-- Indigo 500 -->
+    </g>
+    
+    <!-- Amber Fort -->
+    <g clip-path="url(#amber-fort)">
+      <rect x="950" y="400" width="150" height="150" fill="#4c1d95" /> <!-- Indigo 900 -->
+      <path d="M950,400 L1100,400 L1100,550 L950,550 Z" fill="none" stroke="#a78bfa" stroke-width="2" /> <!-- Indigo 400 -->
+    </g>
+    
+    <!-- Gateway of India -->
+    <g clip-path="url(#gateway)">
+      <rect x="100" y="400" width="100" height="150" fill="#5b21b6" /> <!-- Indigo 800 -->
+      <path d="M100,400 L200,400 L200,550 L100,550 Z" fill="none" stroke="#a78bfa" stroke-width="2" /> <!-- Indigo 400 -->
+    </g>
+  </g>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.15">
+    <!-- Stars/sparkles -->
+    <circle cx="300" cy="100" r="2" fill="white" />
+    <circle cx="320" cy="120" r="1" fill="white" />
+    <circle cx="280" cy="80" r="1.5" fill="white" />
+    <circle cx="800" cy="150" r="2" fill="white" />
+    <circle cx="780" cy="170" r="1" fill="white" />
+    <circle cx="820" cy="130" r="1.5" fill="white" />
+    <circle cx="400" cy="350" r="2" fill="white" />
+    <circle cx="420" cy="370" r="1" fill="white" />
+    <circle cx="380" cy="330" r="1.5" fill="white" />
+    <circle cx="900" cy="450" r="2" fill="white" />
+    <circle cx="920" cy="470" r="1" fill="white" />
+    <circle cx="880" cy="430" r="1.5" fill="white" />
+    <circle cx="150" cy="250" r="2" fill="white" />
+    <circle cx="170" cy="270" r="1" fill="white" />
+    <circle cx="130" cy="230" r="1.5" fill="white" />
+    <circle cx="700" cy="500" r="2" fill="white" />
+    <circle cx="720" cy="520" r="1" fill="white" />
+    <circle cx="680" cy="480" r="1.5" fill="white" />
+  </g>
+  
+  <!-- Subtle connecting lines -->
+  <g opacity="0.2" stroke="#c4b5fd" stroke-width="1">
+    <path d="M600,200 L350,250" />
+    <path d="M600,200 L950,200" />
+    <path d="M350,250 L500,450" />
+    <path d="M950,200 L1025,450" />
+    <path d="M500,450 L750,450" />
+    <path d="M750,450 L1025,450" />
+    <path d="M350,250 L150,450" />
+    <path d="M150,450 L500,450" />
+  </g>
+</svg>
