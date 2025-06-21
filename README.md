@@ -40,7 +40,7 @@ The project is organized into two main directories:
 
 ## Demo Video
 
-👉 [Watch the demo here] (https://youtu.be/Urs7M7qLBwI)
+👉 [Watch the demo here] (https://youtu.be/9JTmxiXQJ9k)
 
 
 
